@@ -25,6 +25,11 @@ namespace DataAccessLayer.Concrete.Repositories
             throw new NotImplementedException();
         }
 
+        public List<Writer> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Insert(Writer p)
         {
             throw new NotImplementedException();

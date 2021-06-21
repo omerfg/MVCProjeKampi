@@ -45,6 +45,11 @@ namespace DataAccessLayer.Concrete.Repositories
         {
             c.SaveChanges();
         }
+
+        List<Category> IRepository<Category>.GetAll()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 

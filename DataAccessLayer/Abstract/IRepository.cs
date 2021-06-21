@@ -9,6 +9,7 @@ namespace DataAccessLayer.Abstract
 {
     public interface IRepository<T>
     {
+        List<T> GetAll();
         List<T> List();
         void Insert(T p);
         T Get(Expression<Func<T, bool>> filter);
