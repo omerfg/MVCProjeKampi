@@ -28,7 +28,7 @@ namespace MvcProjeKampi.Controllers
             return View(contactvalues);
         }
 
-        public PartialViewResult ContactPartial()
+        public PartialViewResult ContactPartial(string p)
         {
             //var messageinboxcount = c.Messages.Count(x => x.ReceiverMail == "admin@gmail.com" && x.MarkAsRead == false && x.isDraft == false).ToString();
             //var messagesendboxcount = c.Messages.Count(x => x.SenderMail == "admin@gmail.com" && x.MarkAsRead == false && x.isDraft == false).ToString();
@@ -44,11 +44,11 @@ namespace MvcProjeKampi.Controllers
             var contactList = cm.GetList();
             ViewBag.contactCount = contactList.Count();
 
-            var listResult = mm.GetListSendbox();
+            var listResult = mm.GetListSendbox(p);
             var sendList = listResult.FindAll(x => x.isDraft == false);
             ViewBag.sendCount = sendList.Count();
 
-            var listResult2 = mm.GetListInbox();
+            var listResult2 = mm.GetListInbox(p);
             var inboxlist = listResult2.FindAll(x => x.MarkAsRead == false);
             ViewBag.inboxCount = inboxlist.Count();
 

@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Concrate;
 using BusinessLayer.ValidationRules;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
@@ -19,13 +20,15 @@ namespace MvcProjeKampi.Controllers
         MessageManager mm = new MessageManager(new EFMessageDal());
         public ActionResult Inbox()
         {
-            var messagelist = mm.GetListInbox();
+            string p = (string)Session["WriterMail"];
+            var messagelist = mm.GetListInbox(p);
             var inboxlist = messagelist.FindAll(x => x.MarkAsRead == false);
             return View(inboxlist);
         }
         public ActionResult Sendbox()
         {
-            var messagelist = mm.GetListSendbox();
+            string p = (string)Session["WriterMail"];
+            var messagelist = mm.GetListSendbox(p);
             var sendlist = messagelist.FindAll(x => x.isDraft == false);
             return View(sendlist);
         }
@@ -60,9 +63,9 @@ namespace MvcProjeKampi.Controllers
             var values = mm.GetByID(id);
             return View(values);
         }
-        public ActionResult Draft()
+        public ActionResult Draft(string p )
         {
-            var sendvalue = mm.GetListSendbox();
+            var sendvalue = mm.GetListSendbox(p);
             var draftvalue = sendvalue.FindAll(x => x.isDraft == true);
             return View(draftvalue);
         }
@@ -82,6 +85,7 @@ namespace MvcProjeKampi.Controllers
         public ActionResult NewMessage(Message model, string button)
         {
             ValidationResult results = new ValidationResult();
+            string sender = (string)Session["WriterMail"];
             if (button == "draft")
             {
 
@@ -89,7 +93,7 @@ namespace MvcProjeKampi.Controllers
                 if (results.IsValid)
                 {
                     model.MessageDate = DateTime.Now;
-                    model.SenderMail = "gizemn@hotmail.com";
+                    model.SenderMail = sender;
                     model.isDraft = true;
                     mm.MessageAdd(model);
                     return RedirectToAction("Draft");
@@ -108,7 +112,7 @@ namespace MvcProjeKampi.Controllers
                 if (results.IsValid)
                 {
                     model.MessageDate = DateTime.Now;
-                    model.SenderMail = "gizemn@hotmail.com";
+                    model.SenderMail = sender;
                     model.isDraft = false;
                     mm.MessageAdd(model);
                     return RedirectToAction("SendBox");
@@ -137,16 +141,16 @@ namespace MvcProjeKampi.Controllers
             //}
 
         }
-        public PartialViewResult MessageListMenu()
+        public PartialViewResult MessageListMenu(string p)
         {
             var contactList = cm.GetList();
             ViewBag.contactCount = contactList.Count();
 
-            var listResult = mm.GetListSendbox();
+            var listResult = mm.GetListSendbox(p);
             var sendList = listResult.FindAll(x => x.isDraft == false);
             ViewBag.sendCount = sendList.Count();
 
-            var listResult2 = mm.GetListInbox();
+            var listResult2 = mm.GetListInbox(p);
             var inboxlist = listResult2.FindAll(x => x.MarkAsRead == false);
             ViewBag.inboxCount = inboxlist.Count();
 

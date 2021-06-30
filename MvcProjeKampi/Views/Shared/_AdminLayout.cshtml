@@ -58,20 +58,27 @@ to get the desired effect
     with font-awesome or any other icon font library -->
                         @if (User.IsInRole("B"))
                         {
-                            <li class="nav-item has-treeview">
-                                <a href="/AdminCategory/Index/" class="nav-link">
-                                    <i class="nav-icon fas fa-tachometer-alt"></i>
-                                    <p>
-                                        Kategoriler
-                                    </p>
-                                </a>
-                            </li>
-                        }
+                    <li class="nav-item has-treeview">
+                        <a href="/AdminCategory/Index/" class="nav-link">
+                            <i class="nav-icon fas fa-tachometer-alt"></i>
+                            <p>
+                                Kategoriler
+                            </p>
+                        </a>
+                    </li>}
                         <li class="nav-item">
                             <a href="/Heading/Index" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
                                 <p>
                                     Başlıklar
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Content/GetAllContent" class="nav-link">
+                                <i class="nav-icon fas fa-th"></i>
+                                <p>
+                                    Yazılar
                                 </p>
                             </a>
                         </li>
@@ -153,7 +160,7 @@ to get the desired effect
                             </a>
                         </li>
                         <li class="nav-item has-treeview">
-                            <a href="/Talent/TalentCard/" class="nav-link">
+                            <a href="/Talent/Index/" class="nav-link">
                                 <i class="nav-icon far fa-envelope"></i>
                                 <p>
                                     Yetenek Kartım
@@ -161,7 +168,7 @@ to get the desired effect
                             </a>
                         </li>
                         <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
+                            <a href="/Home/HomePage" class="nav-link">
                                 <i class="nav-icon fas fa-book"></i>
                                 <p>
                                     Siteye Git
@@ -198,7 +205,7 @@ to get the desired effect
     <!-- ./wrapper -->
     <!-- REQUIRED SCRIPTS -->
     <!-- jQuery -->
-    @*<script src="~/AdminLTE-3.0.4/plugins/jquery/jquery.min.js"></script>*@
+    <script src="~/AdminLTE-3.0.4/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="~/AdminLTE-3.0.4/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE -->

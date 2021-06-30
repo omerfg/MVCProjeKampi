@@ -19,9 +19,9 @@ namespace MvcProjeKampi.Controllers
         MessageManager mm = new MessageManager(new EFMessageDal());
         Context c = new Context();
         [Authorize]
-        public ActionResult Inbox()
+        public ActionResult Inbox(string p)
         {
-            var messagelist = mm.GetListInbox();
+            var messagelist = mm.GetListInbox(p);
             var inboxlist = messagelist.FindAll(x => x.MarkAsRead == false);
             return View(inboxlist);
         }
@@ -33,9 +33,9 @@ namespace MvcProjeKampi.Controllers
             return View(readlist);
         }
 
-        public ActionResult Sendbox()
+        public ActionResult Sendbox(string p)
         {
-            var messagelist = mm.GetListSendbox();
+            var messagelist = mm.GetListSendbox(p);
             var sendlist = messagelist.FindAll(x => x.isDraft == false);
             return View(sendlist);
         }
@@ -133,9 +133,9 @@ namespace MvcProjeKampi.Controllers
             return RedirectToAction("ReadMessages");
         }
 
-        public ActionResult Draft()
+        public ActionResult Draft(string p)
         {
-            var sendvalue = mm.GetListSendbox();
+            var sendvalue = mm.GetListSendbox(p);
             var draftvalue = sendvalue.FindAll(x => x.isDraft == true);
             return View(draftvalue);
         }

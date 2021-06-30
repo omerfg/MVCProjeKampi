@@ -14,10 +14,10 @@ namespace MvcProjeKampi.Controllers
     [AllowAnonymous]
     public class LoginController : Controller
     {
-        
-        
+
+        WriterLoginManager wm = new WriterLoginManager(new EFWriterDal());
         AdminManager am = new AdminManager(new EFAdminDal());
-        Context c = new Context();
+
         [HttpGet]
         public ActionResult Index()
         {
@@ -27,17 +27,19 @@ namespace MvcProjeKampi.Controllers
         [HttpPost]
         public ActionResult Index(Admin p)
         {
+            Context c = new Context();
             var adminuserinfo = c.Admins.FirstOrDefault(x => x.AdminUserName == p.AdminUserName && x.AdminPassword == p.AdminPassword);
             if (adminuserinfo != null)
             {
                 FormsAuthentication.SetAuthCookie(adminuserinfo.AdminUserName, false);
                 Session["AdminUserName"] = adminuserinfo.AdminUserName;
-                return RedirectToAction("Index","AdminCategory");
+                return RedirectToAction("Index", "AdminCategory");
             }
             else
             {
                 return RedirectToAction("Index");
             }
+            return View();
         }
         [HttpGet]
         public ActionResult WriterLogin()
@@ -47,7 +49,8 @@ namespace MvcProjeKampi.Controllers
         [HttpPost]
         public ActionResult WriterLogin(Writer p)
         {
-            var writeruserinfo = c.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
+            //var writeruserinfo = c.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
+            var writeruserinfo = wm.GetWriter(p.WriterMail,p.WriterPassword);
             if (writeruserinfo != null)
             {
                 FormsAuthentication.SetAuthCookie(writeruserinfo.WriterMail, false);
