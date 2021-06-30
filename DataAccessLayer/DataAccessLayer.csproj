@@ -141,6 +141,10 @@
     <Compile Include="Migrations\202106190651256_mig_talent_talentrange_update.designer.cs">
       <DependentUpon>202106190651256_mig_talent_talentrange_update.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106230755334_mig_old_is_back.cs" />
+    <Compile Include="Migrations\202106230755334_mig_old_is_back.designer.cs">
+      <DependentUpon>202106230755334_mig_old_is_back.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -202,6 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106190651256_mig_talent_talentrange_update.resx">
       <DependentUpon>202106190651256_mig_talent_talentrange_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106230755334_mig_old_is_back.resx">
+      <DependentUpon>202106230755334_mig_old_is_back.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

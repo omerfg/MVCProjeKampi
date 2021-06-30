@@ -18,3 +18,23 @@ D:\Projelerim\MvcProjeKampi\BusinessLayer\obj\Debug\BusinessLayer.dll
 D:\Projelerim\MvcProjeKampi\BusinessLayer\obj\Debug\BusinessLayer.pdb
 D:\Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\FluentValidation.dll
 D:\Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\FluentValidation.xml
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\DataAccessLayer.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\EntityLayer.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\FluentValidation.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\EntityLayer.pdb
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\EntityLayer.dll.config
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\bin\Debug\FluentValidation.xml
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\BusinessLayer\obj\Debug\BusinessLayer.pdb

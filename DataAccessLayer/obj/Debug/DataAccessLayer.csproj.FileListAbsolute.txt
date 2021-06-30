@@ -30,3 +30,36 @@ D:\Projelerim\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations
 D:\Projelerim\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_about_status_add.resources
 D:\Projelerim\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_talent_add_table.resources
 D:\Projelerim\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_talent_talentrange_update.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\bin\Debug\EntityLayer.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\bin\Debug\EntityLayer.pdb
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_edit.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writertitle_add.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_imagesizechange.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_addstatus.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_content_statusadd.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_heading_addstatus.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_messageclass_add.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contactadd_date.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_imagefiletable_add.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_admin_table.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_message_markasread.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_message_isDraft_add.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_about_status_add.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_talent_add_table.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_talent_talentrange_update.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_old_is_back.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
