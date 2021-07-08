@@ -60,6 +60,7 @@
     <Compile Include="Abstract\IImageFileDal.cs" />
     <Compile Include="Abstract\IMessageDal.cs" />
     <Compile Include="Abstract\IRepository.cs" />
+    <Compile Include="Abstract\IRoleDal.cs" />
     <Compile Include="Abstract\ITalentDal.cs" />
     <Compile Include="Abstract\IWriterDal.cs" />
     <Compile Include="Class1.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="EntityFramework\EFHeadingDal.cs" />
     <Compile Include="EntityFramework\EFImageFileDal.cs" />
     <Compile Include="EntityFramework\EFMessageDal.cs" />
+    <Compile Include="EntityFramework\EFRoleDal.cs" />
     <Compile Include="EntityFramework\EFTalentDal.cs" />
     <Compile Include="EntityFramework\EFWriterDal.cs" />
     <Compile Include="Migrations\202104161015565_mig1.cs" />
@@ -145,6 +147,18 @@
     <Compile Include="Migrations\202106230755334_mig_old_is_back.designer.cs">
       <DependentUpon>202106230755334_mig_old_is_back.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202107071216585_new_table_role.cs" />
+    <Compile Include="Migrations\202107071216585_new_table_role.designer.cs">
+      <DependentUpon>202107071216585_new_table_role.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107071249240_deneme.cs" />
+    <Compile Include="Migrations\202107071249240_deneme.designer.cs">
+      <DependentUpon>202107071249240_deneme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107080826215_deneme2.cs" />
+    <Compile Include="Migrations\202107080826215_deneme2.designer.cs">
+      <DependentUpon>202107080826215_deneme2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -209,6 +223,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106230755334_mig_old_is_back.resx">
       <DependentUpon>202106230755334_mig_old_is_back.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107071216585_new_table_role.resx">
+      <DependentUpon>202107071216585_new_table_role.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107071249240_deneme.resx">
+      <DependentUpon>202107071249240_deneme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107080826215_deneme2.resx">
+      <DependentUpon>202107080826215_deneme2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

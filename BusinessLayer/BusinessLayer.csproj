@@ -62,6 +62,7 @@
     <Compile Include="Abstract\IHeadingService.cs" />
     <Compile Include="Abstract\IImageFileService.cs" />
     <Compile Include="Abstract\IMessageService.cs" />
+    <Compile Include="Abstract\IRoleService.cs" />
     <Compile Include="Abstract\ITalentService.cs" />
     <Compile Include="Abstract\IWriterLoginService.cs" />
     <Compile Include="Abstract\IWriterService.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Concrate\HeadingManager.cs" />
     <Compile Include="Concrate\ImageFileManager.cs" />
     <Compile Include="Concrate\MessageManager.cs" />
+    <Compile Include="Concrate\RoleManager.cs" />
     <Compile Include="Concrate\TalentManager.cs" />
     <Compile Include="Concrate\WriterLoginManager.cs" />
     <Compile Include="Concrate\WriterManager.cs" />

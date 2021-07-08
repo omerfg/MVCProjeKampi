@@ -22,7 +22,11 @@ namespace MvcProjeKampi.Controllers
             var headingvalues = hm.GetList();
             return View(headingvalues);
         }
-
+        public ActionResult HeadingReport()
+        {
+            var headingvalues = hm.GetList();
+            return View(headingvalues);
+        }
         [HttpGet]
         public ActionResult AddHeading()
         {
@@ -42,7 +46,7 @@ namespace MvcProjeKampi.Controllers
             ViewBag.vlw = valuewriter;
             return View();
         }
-
+        
         [HttpPost]
         public ActionResult AddHeading(Heading p)
         {

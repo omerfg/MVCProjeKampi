@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>İstatistik İçerik Sayfası</h2>
+
+<div class="card-group">
+    <div class="card text-white bg-secondary mb-3 ml-3" style="max-width: 18rem;">
+        <div class="card-header">Toplam kategori sayısı</div>
+        <div class="card-body">
+            <p class="card-text">@ViewBag.sorgu1</p>
+        </div>
+    </div>
+
+    <div class="card text-white bg-success mb-3 ml-3" style="max-width: 18rem;">
+        <div class="card-header">Başlık tablosunda "yazılım" kategorisine ait başlık sayısı</div>
+        <div class="card-body">
+            <p class="card-text">@ViewBag.sorgu2</p>
+        </div>
+    </div>
+
+    <div class="card text-white bg-warning mb-3 ml-3" style="max-width: 18rem;">
+        <div class="card-header">Yazar adında 'a' harfi geçen yazar sayısı</div>
+        <div class="card-body">
+            <p class="card-text">@ViewBag.sorgu3</p>
+        </div>
+    </div>
+
+    <div class="card text-white bg-info mb-3 ml-3" style="max-width: 18rem;">
+        <div class="card-header">En fazla başlığa sahip kategori adı</div>
+        <div class="card-body">
+            <p class="card-text">@ViewBag.sorgu4</p>
+        </div>
+    </div>
+
+    <div class="card text-white bg-dark mb-3 ml-3" style="max-width: 18rem;">
+        <div class="card-header">Kategori tablosunda durumu true olan kategoriler ile false olan kategoriler arasındaki sayısal fark</div>
+        <div class="card-body">
+            <p class="card-text">@ViewBag.sorgu5</p>
+        </div>
+    </div>
+</div>
+
+

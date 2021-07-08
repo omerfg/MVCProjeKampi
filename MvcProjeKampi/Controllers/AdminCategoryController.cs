@@ -15,13 +15,13 @@ namespace MvcProjeKampi.Controllers
     {
         CategoryManager cm = new CategoryManager(new EFCategoryDal());
 
-        [Authorize(Roles ="B")]
+        [Authorize]
         public ActionResult Index()
         {
             var categoryvalues = cm.GetList();
             return View(categoryvalues);
         }
-
+        [Authorize(Roles = "B")]
         [HttpGet]
         public ActionResult AddCategory()
         {

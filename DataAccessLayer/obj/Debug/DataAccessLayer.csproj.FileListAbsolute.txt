@@ -63,3 +63,6 @@ D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAcce
 D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.new_table_role.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.deneme.resources
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.deneme2.resources

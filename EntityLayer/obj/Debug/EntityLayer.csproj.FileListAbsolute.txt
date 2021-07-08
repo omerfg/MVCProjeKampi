@@ -10,3 +10,15 @@ D:\Projelerim\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompile
 D:\Projelerim\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
 D:\Projelerim\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.dll
 D:\Projelerim\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.pdb
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\EntityLayer\bin\Debug\EntityLayer.dll.config
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\EntityLayer\bin\Debug\EntityLayer.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\EntityLayer\bin\Debug\EntityLayer.pdb
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\EntityLayer\bin\Debug\EntityFramework.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\EntityLayer\bin\Debug\EntityFramework.xml
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\EntityLayer\obj\Debug\EntityLayer.dll
+D:\Projelerim\Yeni klasör\MVCProjeKampi-main\EntityLayer\obj\Debug\EntityLayer.pdb

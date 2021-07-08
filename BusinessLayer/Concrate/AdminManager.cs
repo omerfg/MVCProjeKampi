@@ -42,5 +42,10 @@ namespace BusinessLayer.Concrate
         {
             return _adminDal.Get(a => a.AdminID == id);
         }
+
+        public List<Admin> GetList()
+        {
+            return _adminDal.List();
+        }
     }
 }
